@@ -1,25 +1,29 @@
-This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter project.
+# AI Research Assistant (Next.js + Vercel)
 
-## Getting Started
+This is a turbocharged AI Chatbot built on [assistant-ui](https://github.com/Yonom/assistant-ui).
 
-First, add your OpenAI API key to `.env.local` file:
+## 🚀 Features
 
-```
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
+- **🌐 Live Web Search**: "Perplexity-style" real-time answers using **Llama 3.3 70B** + **Tavily Search**.
+- **🧠 Reasoning**: DeepSeek R1 Distill for complex logic.
+- **💻 Coding**: Qwen 2.5 Coder for programming tasks.
+- **✨ Multiple Providers**: 
+  - **Google (Gemini 2.0)**
+  - **Groq (Llama 3, Mixtral, Gemma)**
+  - **OpenRouter (Claude 3.5, GPT-4o)**
 
-Then, run the development server:
+## 🛠️ Setup
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone repo
+2. Copy `.env.local` keys:
+   - `GOOGLE_GENERATIVE_AI_API_KEY`
+   - `TAVILY_API_KEY`
+   - `GROQ_API_KEY`
+   - `OPENROUTER_API_KEY`
+3. `npm run dev`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Automatically deploys to Vercel on push.
+Verified production-ready.
+
