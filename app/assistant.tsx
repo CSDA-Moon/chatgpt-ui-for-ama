@@ -39,7 +39,7 @@ export const Assistant = () => {
                 <Separator orientation="vertical" className="mr-2 h-4" />
                 {/* ✅ Header title changed to Ask me anything */}
                 <h2 className="text-lg font-semibold text-gray-800">
-                  Ask me anything
+                  Ask me anything (v2)
                 </h2>
               </div>
 
